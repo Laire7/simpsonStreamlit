@@ -10,7 +10,7 @@ import time
 # 모델 로드
 @st.cache_resource
 def load_model(model_name):
-    return YOLO(model_name + ".onxx")
+    return YOLO(model_name + ".onnx")
 
 # 파일 업로드
 st.title("Simpson Yolov11 객체 탐지")
